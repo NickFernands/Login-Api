@@ -1,0 +1,33 @@
+{
+  "name": "atvlogin",
+  "version": "1.0.0",
+  "description": "Atividade de login com middlewares",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://gitlab.com/InfoJrUFBA/nucleos/back-end/2-ciclo/basico/atividade-6-validacao-e-tratamento-de-erros.git"
+  },
+  "keywords": [
+    "login",
+    "jwt",
+    "middlewares"
+  ],
+  "author": "nickaum",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://gitlab.com/InfoJrUFBA/nucleos/back-end/2-ciclo/basico/atividade-6-validacao-e-tratamento-de-erros/issues"
+  },
+  "homepage": "https://gitlab.com/InfoJrUFBA/nucleos/back-end/2-ciclo/basico/atividade-6-validacao-e-tratamento-de-erros#readme",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "express": "^4.17.1",
+    "express-validator": "^6.12.1",
+    "morgan": "^1.10.0",
+    "mysql2": "^2.2.5",
+    "nodemon": "^2.0.12"
+  }
+}
